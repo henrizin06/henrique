@@ -56,5 +56,5 @@ def tela2():
 
     window.close()
 
-
+a
 tela1()
