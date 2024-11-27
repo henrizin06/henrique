@@ -28,7 +28,8 @@ def tela1():
             nome = values['nome']
             nota1 = values['nota1']
             nota2 = values['nota2']
-
+        if len(nome) <3:
+            sg.popup("não permitido valor menor que 3")
         print('Hello', values[0], '!')
 
     window.close()
@@ -56,5 +57,5 @@ def tela2():
 
     window.close()
 
-a
+
 tela1()
